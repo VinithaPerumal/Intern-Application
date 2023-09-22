@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-// import './index.css';
-// import Feedbackform from './Feedbackform.css';
+import './index.css';
+import Feedbackform from './css/Feedbackform.css';
 import session from './css/session.css';
-// import Register from './Register.css';
-// import Task from './Task.css';
+import Register from './css/Register.css';
+import Task from './css/Task.css';
+import Login from './css/Login.css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

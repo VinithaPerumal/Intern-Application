@@ -3,7 +3,8 @@ import Feedbackform from './components/Feedbackform';
 import RegisterPage from './components/Register';
 import Session from './components/Session';
 import Nextpage from './components/Nextpage';
-import Task from './components/Task'
+import Task from './components/Task';
+import Login from './components/Login';
 import { BrowserRouter as Router, Route, Routes, Switch } from "react-router-dom";
 
 function App() {

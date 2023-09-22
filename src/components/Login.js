@@ -1,22 +1,18 @@
 import React from "react";
-import 'C:\\Users\\mn17\\login-app\\src\\Login.css';
-
-
-
-class LoginPage extends React.Component {
+class Login extends React.Component {
   render() {
     return (
      
         <body>
         <div className="navbar">
         <nav className="icon">
-          <img src="./Logo.png" alt="App Logo" className="logo"/>
+          <img src="./App_icon.png" alt="App Logo" className="logo"/>
         </nav>
         </div>
 
       <div className="center-box">
         <div className="image-container">
-          <img src="/Cover image.png" alt="Image" />
+          <img src="./internimage.png" alt="Image" />
       <div className="footer">
               <center>
                 <h2>LOGIN</h2>
@@ -45,4 +41,4 @@ class LoginPage extends React.Component {
   }
 }
 
-export default LoginPage;
+export default Login;
