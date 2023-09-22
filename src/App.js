@@ -1,41 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
 import React from 'react';
 import Feedbackform from './components/Feedbackform';
-
-
-
+import RegisterPage from './components/Register';
+import Session from './components/Session';
+import Nextpage from './components/Nextpage';
+import Task from './components/Task'
+import { BrowserRouter as Router, Route, Routes, Switch } from "react-router-dom";
 
 function App() {
   return (
-    // <div className="App">
-    //   <header className="App-header">
-    //     <img src={logo} className="App-logo" alt="logo" />
-    //     <p>
-    //       Edit <code>src/App.js</code> and save to reload.
-    //     </p>
-    //     <a
-    //       className="App-link"
-    //       href="https://reactjs.org"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       Learn React
-    //     </a>
-    //   </header>
-    // </div>
-    
-function App() {
-  return (
-    <div className="App">
-      <Feedbackform />
-    </div>
-  );
-}
-
-
-
+    // <Router>
+    //   <Switch>
+    //     <Route path="/session" exact component={Session} />
+    //     <Route path="/feedback" exact component={Feedbackform} />
+    //     <Route path="/nextpage" exact component={Nextpage}/>
+    //     <Route path="/task" exact component={Task} />
+    //   </Switch>
+    // </Router>
+     <Session /> 
   );
 }
 
 export default App;
+
+
+
