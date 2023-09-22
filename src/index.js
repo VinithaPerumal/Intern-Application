@@ -5,7 +5,10 @@ import Feedbackform from './css/Feedbackform.css';
 import session from './css/session.css';
 import Register from './css/Register.css';
 import Task from './css/Task.css';
+<<<<<<< HEAD
 import Login from './css/Login.css'
+=======
+>>>>>>> 398739cf238f8806d4d1bfbba6d21d7b8ed533f5
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
