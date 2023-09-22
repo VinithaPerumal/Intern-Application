@@ -8,15 +8,15 @@ import { BrowserRouter as Router, Route, Routes, Switch } from "react-router-dom
 
 function App() {
   return (
-    // <Router>
-    //   <Switch>
-    //     <Route path="/session" exact component={Session} />
-    //     <Route path="/feedback" exact component={Feedbackform} />
-    //     <Route path="/nextpage" exact component={Nextpage}/>
-    //     <Route path="/task" exact component={Task} />
-    //   </Switch>
-    // </Router>
-     <Session /> 
+    <Router>
+      <Switch>
+        <Route path="/session" exact component={Session} />
+        <Route path="/feedback" exact component={Feedbackform} />
+        <Route path="/nextpage" exact component={Nextpage}/>
+        <Route path="/task" exact component={Task} />
+      </Switch>
+    </Router>
+     // <Session /> 
   );
 }
 
